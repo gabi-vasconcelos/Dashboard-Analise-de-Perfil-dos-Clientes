@@ -44,7 +44,7 @@ A idade dos leads é calculada com `current_date` (Query 3), então os percentua
 
 1. Tenha o banco do curso no PostgreSQL, com os schemas `sales` e `temp_tables`. A base não está neste repositório.
 2. Execute [`queries/00_funcao_datediff.sql`](queries/00_funcao_datediff.sql) uma vez. O PostgreSQL não tem `datediff` nativo, e a Query 3 depende dela.
-3. Abra `Análise de Perfil dos Clientes.pbix` no Power BI Desktop e, em *Transformar dados*, ajuste a conexão (`localhost`, banco `postgres`) para o seu ambiente.
+3. Abra `Analise-de-Perfil-dos-Clientes.pbix` no Power BI Desktop e, em *Transformar dados*, ajuste a conexão (`localhost`, banco `postgres`) para o seu ambiente.
 4. Atualize os dados.
 
 ## Ferramentas
@@ -55,7 +55,7 @@ A idade dos leads é calculada com `current_date` (Query 3), então os percentua
 ## Estrutura
 
 ```
-├── Análise de Perfil dos Clientes.pbix
+├── Analise-de-Perfil-dos-Clientes.pbix
 ├── imagens/
 │   └── dashboard.jpg
 └── queries/
